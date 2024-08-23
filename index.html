@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>O tempo agora App</title>
+</head>
+<body>
+  <div class="weather-app">
+  <div class="container">
+    <h3 class="brand">O tempo agora</h3>
+	<div>
+	  <h1 class="temp">16&#176;</h1>
+	  <div class="city-time">
+	    <h1 class="name">Recife</h1>
+		<small>
+      <span class="time">06:09</span>
+      - <span class="date">Segunda-feira 19 Set</span>
+    </small>
+	  </div>
+	  <div class="weather">
+	    <img src="./icons/day/113.png" class="icon" alt="icon" width="50" height="50">
+		<span class="condition">Parcialmente nublado</span>
+	  </div>
+	</div>
+	</div>
+	<div class="panel">
+	  <form id="locationInput">
+	    <input type="text" class="search" placeholder="Procurar localização...">
+		<button type="submit" class="submit">
+		  <i class="fas fa-search"></i>
+		</button>
+	  </form>
+	  
+	  <ul class="cities">
+	    <li class="city">Brasília</li>
+		  <li class="city">Rio de Janeiro</li>
+		  <li class="city">Natal</li>
+		  <li class="city">Manaus</li>
+	  </ul>
+	  
+	  <ul class="details">
+	    <h4>Detalhes do Tempo</h4>
+	    <li>
+		  <span>Nuvens</span>
+		  <span class="cloud">89%</span>
+		</li>
+		<li>
+		  <span>Umidade</span>
+		  <span class="humidity">64%</span>
+		</li>
+		<li>
+		  <span>Vento</span>
+		  <span class="wind">8km/h</span>
+		</li>
+	  </ul>
+	</div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
